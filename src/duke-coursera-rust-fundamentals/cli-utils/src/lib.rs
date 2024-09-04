@@ -9,6 +9,8 @@
 
 use std::io::{BufRead, BufReader};
 
+pub mod colors;
+
 /// This function reads a line from stdin and returns it as a String.
 /// It will panic if it fails to read a line.
 /// # Examples:
