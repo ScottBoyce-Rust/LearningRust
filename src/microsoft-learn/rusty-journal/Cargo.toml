@@ -5,9 +5,10 @@ edition = "2021"
 
 [dependencies]
 #chrono = "0.4"
+anyhow = "1.0"
 home = "0.5"
-structopt = "0.3"
 serde_json = "1.0"
+structopt = "0.3"
 
 [dependencies.chrono]
 features = ["serde"] # serde feature to serialize the chrono DateTime field.
